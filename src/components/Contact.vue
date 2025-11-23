@@ -49,9 +49,9 @@ const sendMessage = async () => {
 
       <h2 class="text-4xl font-bold mb-10 text-center">Contact Me</h2>
 
-      <form @submit.prevent="sendMessage" class="space-y-6">
+      <form @submit.prevent="sendMessage" class="space-y-6 grid grid-cols-2 gap-0">
 
-        <div>
+        <div class="col-span-1 me-3">
           <label class="block mb-2">Name</label>
           <input
             v-model="name"
@@ -60,7 +60,7 @@ const sendMessage = async () => {
           />
         </div>
 
-        <div>
+        <div class="col-span-1">
           <label class="block mb-2">Email</label>
           <input
             v-model="email"
@@ -69,18 +69,18 @@ const sendMessage = async () => {
           />
         </div>
 
-        <div>
+        <div class="col-span-2">
           <label class="block mb-2">Message</label>
           <textarea
             v-model="message"
-            rows="5"
+            rows="3"
             class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none rounded-2xl"
           ></textarea>
         </div>
 
         <button
           :disabled="loading"
-          class="w-full bg-blue-600 hover:bg-blue-700 py-3 rounded text-lg font-semibold transition rounded-2xl"
+          class="col-span-2 w-full bg-blue-600 hover:bg-blue-700 py-3 rounded text-lg font-semibold transition rounded-2xl"
         >
           {{ loading ? "Sending..." : "Send Message" }}
         </button>

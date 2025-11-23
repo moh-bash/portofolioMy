@@ -9,7 +9,7 @@
         </h2>
 
         <h1 class="text-4xl md:text-6xl font-bold">
-          Bashir <span class="text-blue-500">Full-Stack Developer</span>
+          Bashir <span class="text-blue-500">Front-End Developer</span>
         </h1>
 
         <p class="text-gray-400 text-lg leading-relaxed">
@@ -31,9 +31,9 @@
       <!-- Image / Illustration -->
       <div class="flex justify-center">
         <img
-          src="https://cdn-icons-png.flaticon.com/512/2721/2721298.png"
+          src="../assets/1763902197757.png"
           alt="Developer illustration"
-          class="w-72 md:w-96 drop-shadow-lg"
+          class="w-96 md:w-118 drop-shadow-lg"
         />
       </div>
 

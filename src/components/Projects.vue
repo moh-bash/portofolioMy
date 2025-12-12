@@ -8,7 +8,50 @@
       </h2>
 
       <!-- Loading -->
-      <p v-if="loading" class="text-center text-gray-400">Loading projects...</p>
+      <p v-if="loading" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div class="mx-auto w-full max-w-sm border border-blue-300 p-4 rounded-2xl">
+          <div class="flex animate-pulse space-x-4">
+            <div class="flex-1 space-y-6 py-1">
+              <div class="h-45 rounded bg-gray-400"></div>
+              <div class="space-y-3">
+                <div class="grid grid-cols-3 gap-4">
+                  <div class="col-span-2 h-2 rounded bg-gray-200"></div>
+                  <div class="col-span-1 h-2 rounded bg-gray-200"></div>
+                </div>
+                <div class="h-2 rounded bg-gray-200"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mx-auto w-full max-w-sm border border-blue-300 p-4 rounded-2xl">
+          <div class="flex animate-pulse space-x-4">
+            <div class="flex-1 space-y-6 py-1">
+              <div class="h-45 rounded bg-gray-400"></div>
+              <div class="space-y-3">
+                <div class="grid grid-cols-3 gap-4">
+                  <div class="col-span-2 h-2 rounded bg-gray-200"></div>
+                  <div class="col-span-1 h-2 rounded bg-gray-200"></div>
+                </div>
+                <div class="h-2 rounded bg-gray-200"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mx-auto w-full max-w-sm border border-blue-300 p-4 rounded-2xl">
+          <div class="flex animate-pulse space-x-4">
+            <div class="flex-1 space-y-6 py-1">
+              <div class="h-45 rounded bg-gray-400"></div>
+              <div class="space-y-3">
+                <div class="grid grid-cols-3 gap-4">
+                  <div class="col-span-2 h-2 rounded bg-gray-200"></div>
+                  <div class="col-span-1 h-2 rounded bg-gray-200"></div>
+                </div>
+                <div class="h-2 rounded bg-gray-200"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </p>
 
       <!-- Projects Grid -->
       <div v-else class="grid sm:grid-cols-2 md:grid-cols-3 gap-10">

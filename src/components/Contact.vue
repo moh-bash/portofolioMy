@@ -51,7 +51,7 @@ const sendMessage = async () => {
 
       <form @submit.prevent="sendMessage" class="space-y-6 grid grid-cols-2 gap-0">
 
-        <div class="col-span-1 me-3">
+        <div class="col-span-2 md:col-span-1  me-3">
           <label class="block mb-2">Name</label>
           <input
             v-model="name"
@@ -60,7 +60,7 @@ const sendMessage = async () => {
           />
         </div>
 
-        <div class="col-span-1">
+        <div class="col-span-2 md:col-span-1">
           <label class="block mb-2">Email</label>
           <input
             v-model="email"

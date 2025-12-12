@@ -3,9 +3,9 @@
     <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
       <!-- Image -->
-      <div class="flex justify-center">
+      <div class="flex justify-center rounded-">
         <img
-          src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXtLLrT1UuZnRGDiPbTH6qz82cEcn-hfY94A&s"
           alt="Profile illustration"
           class="w-64 md:w-80 rounded-xl shadow-lg"
         />

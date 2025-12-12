@@ -3,13 +3,7 @@ import { supabase } from '@/supabase'
 
 // Public Views
 import Home from '../views/Home.vue'
-import Login from '../views/Login.vue'
 
-// Admin Views
-import Admin from '../views/Admin.vue'
-import AdminProjects from '../components/admin/Projects.vue'
-import AdminSkills from '../components/admin/Skills.vue'
-import AdminMessages from '../components/admin/Messages.vue'
 
 const routes = [
   {
@@ -18,34 +12,8 @@ const routes = [
     component: Home
   },
 
-  {
-    path: '/login',
-    name: 'Login',
-    component: Login
-  },
-
-  {
-    path: '/admin',
-    name: 'Admin',
-    component: Admin,
-    children: [
-      {
-        path: 'projects',
-        name: 'AdminProjects',
-        component: AdminProjects
-      },
-      {
-        path: 'skills',
-        name: 'AdminSkills',
-        component: AdminSkills
-      },
-      {
-        path: 'messages',
-        name: 'AdminMessages',
-        component: AdminMessages
-      }
-    ]
-  }
+ 
+ 
 ]
 
 const router = createRouter({

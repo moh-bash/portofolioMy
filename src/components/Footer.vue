@@ -21,7 +21,7 @@
         <!-- Social Icons -->
         <div class="flex space-x-4">
           <a 
-            href="https://github.com" 
+            href="https://github.com/dashboard" 
             target="_blank"
             rel="noopener noreferrer"
             class="text-gray-400 hover:text-blue-400 transition-colors duration-200"
@@ -43,7 +43,7 @@
             </svg>
           </a>
           <a 
-            href="mailto:your.email@example.com" 
+            href="bashirkuja@email.com" 
             class="text-gray-400 hover:text-blue-400 transition-colors duration-200"
             aria-label="Email"
           >

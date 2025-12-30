@@ -18,11 +18,9 @@
         </p>
 
         <div class="flex space-x-4 pt-4">
-          <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-md duration-200">
-            Hire Me
-          </a>
+         
 
-          <a href="#projects" class="border border-gray-500 hover:border-white text-gray-300 hover:text-white px-6 py-3 rounded-lg duration-200">
+          <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-md duration-200">
             View Projects
           </a>
         </div>

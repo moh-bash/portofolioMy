@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="py-24 px-6 bg-gray-800">
+  <section id="projects" class="py-24 px-6 bg-gray-900">
     <div class="max-w-6xl mx-auto">
 
       <!-- Title -->
@@ -59,7 +59,7 @@
         <div 
           v-for="project in projects" 
           :key="project.id"
-          class="bg-gray-900 rounded-xl shadow-md overflow-hidden hover:scale-105 duration-300"
+          class="bg-gray-800 rounded-xl shadow-md overflow-hidden hover:scale-105 duration-300"
         >
           <img 
             :src="project.image" 
@@ -83,7 +83,6 @@
             </a>
           </div>
         </div>
-
       </div>
 
     </div>

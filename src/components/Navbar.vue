@@ -11,7 +11,6 @@
       <ul class="hidden md:flex space-x-8 text-lg">
         <li><a href="#hero" class="hover:text-blue-400 duration-200">Home</a></li>
         <li><a href="#about" class="hover:text-blue-400 duration-200">About</a></li>
-        <li><a href="#skills" class="hover:text-blue-400 duration-200">Skills</a></li>
         <li><a href="#projects" class="hover:text-blue-400 duration-200">Projects</a></li>
         <li><a href="#contact" class="hover:text-blue-400 duration-200">Contact</a></li>
       </ul>

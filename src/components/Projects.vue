@@ -69,18 +69,29 @@
 
           <div class="p-5 space-y-3">
             <h3 class="text-xl font-semibold">{{ project.title }}</h3>
-            <p class="text-gray-400 text-sm">
-              {{ project.description }}
-            </p>
-
-            <a
-              v-if="project.project_url"
-              :href="project.project_url"
-              target="_blank"
-              class="inline-block text-blue-400 hover:text-blue-500"
-            >
-              View Project →
-            </a>
+            <div class="flex my-1">
+              <p class="m-1 p-1 border border-blue-600 text-gray-400 text-sm">
+                {{ project.description }}
+              </p>
+            </div>
+            <div class="grid grid-cols-2 gap-2.5">
+              <button
+                v-if="project.project_url"
+                :href="project.project_url"
+                target="_blank"
+                class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow-md duration-200"
+              >
+                View Project →
+              </button>
+              <button
+                v-if="project.project_url"
+                :href="project.project_url"
+                target="_blank"
+                class="bg-black hover:bg-blue-700 text-white px-4 py- rounded-lg shadow-md duration-200"
+              >
+                View Project →
+              </button>
+            </div>
           </div>
         </div>
       </div>

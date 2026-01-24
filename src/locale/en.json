@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "hello": "Hello, I'm",
+    "name": "Bashir",
+    "role": "Front-End Developer",
+    "description": "Building high-performance, responsive web applications with Vue and Tailwind.",
+    "view_projects": "View Projects"
+  },
+
+  "about": {
+    "title_1": "About",
+    "title_2": "Me",
+    "description_1": "I'm Bashir, a passionate Front-End Developer. I love building clean, modern interfaces and powerful web applications using",
+    "goal": "Following 135+ hours of training, I have successfully implemented and practiced on several real-world projects, focusing on writing clean code and ensuring a great user experience. My goal is to create digital experiences that are fast, responsive, and visually appealing — turning ideas into real interactive projects.",
+    "skills_title_1": "Skills ",
+    "skills_title_2": "Me",
+    "loading": "Loading skills...",
+    "error": "Failed to load skills"
+  },
+
+  "projects": {
+    "title_1": "My ",
+    "title_2": "Projects",
+    "view_code": "View Code",
+    "view_live": "View Live",
+    "loading": "Loading projects...",
+    "error": "Failed to load projects"
+  },
+
+  "min": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "contact": {
+    "title_1": "Contact ",
+    "title_2": "Me",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send_message": "Send Message",
+    "success": "✔️ Message sent successfully",
+    "error": "❌ Failed to send message. Please try again.",  
+    "fill_all_fields": "Please fill in all fields"
+  }
+}

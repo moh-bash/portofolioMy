@@ -1,4 +1,32 @@
 @import "tailwindcss";
-li{
-    margin: 2px 8px;
+
+:root {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* لضمان تطبيق الخط على كافة العناصر */
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+@theme {
+  /* اللون الأساسي Emerald 600 */
+  --color-primary: #10b981;
+  /* درجة أغمق قليلاً للـ Hover */
+  --color-primary-dark: #059669;
+
+  /* ألوان الخلفية التي اخترتها */
+  --color-bg-light: #f9fafb; /* gray-50 */
+  --color-bg-dark: #111827;  /* gray-900 */
+
+  /* ألوان النصوص المتناسقة */
+  --color-text-light: #1f2937; /* gray-800 */
+  --color-text-dark: #f3f4f6;  /* gray-100 */
+}
+
+/* تخصيص الـ Variant للوضع الداكن */
+@custom-variant dark (&:where([data-mode="dark"], [data-mode="dark"] *));
+
+li {
+  margin: 2px 8px;
 }

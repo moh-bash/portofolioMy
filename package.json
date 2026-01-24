@@ -15,10 +15,12 @@
     "lint": "run-s lint:*"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@supabase/supabase-js": "^2.84.0",
-    "@tailwindcss/vite": "^4.1.17",
-    "tailwindcss": "^4.1.17",
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18",
     "vue": "^3.5.22",
+    "vue-i18n": "^11.2.8",
     "vue-router": "^4.6.3"
   },
   "devDependencies": {

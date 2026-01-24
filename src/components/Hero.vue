@@ -2,15 +2,15 @@
   <section id="hero" class="py-20 bg-gray-50 dark:bg-gray-900 mx-auto flex items-center justify-center px-7 md:px-15 h-full min-h-full">
     <div class=" mx-auto grid md:grid-cols-2 gap- items-center">
       <div class="space-y-6">
-        <h2 class="text-3xl md:text-4xl font-semibold dark:text-gray-300">
+        <h2 class="text-3xl md:text-4xl font-semibold dark:text-gray-300 ">
           {{ $t('hero.hello') }}
         </h2>
 
-        <h1 class="text-4xl rtl:leading-normal md:text-6xl font-bold">
+        <h1 class="text-2xl rtl:leading-normal md:text-6xl font-bold">
           {{ $t('hero.name') }} <span class="text-emerald-500 ">{{ $t('hero.role') }}</span>
         </h1>
 
-        <p class="dark:text-gray-400 text-lg leading-relaxed">
+        <p class="dark:text-gray-400 text-lg  leading-relaxed">
           {{ $t('hero.description') }}
         </p>
 
@@ -24,7 +24,7 @@
         </div>
       </div>
 
-      <div class="flex justify-center md:justify-end mt-2 md:mt-0">
+      <div class="flex justify-center md:justify-end mt-3 md:mt-0">
         <img
           src="../assets/1757754758651.jpg"
           :alt="$t('hero.name')"

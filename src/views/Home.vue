@@ -67,7 +67,7 @@ const onTouchEnd = (event) => {
   touchEndY.value = event.changedTouches[0].screenY;
   const distance = touchStartY.value - touchEndY.value;
 
-  if (Math.abs(distance) > 50) {
+  if (Math.abs(distance) > 80) {
     handleNavigation(distance);
   }
 };

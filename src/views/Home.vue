@@ -128,44 +128,28 @@ onUnmounted(() => {
 
   <div
 
-    class="w-full max-w- md:max-w-5xl md:h-[calc(80vh-80px)]
-
+    class="w-full md:max-w-5xl md:h-[calc(80vh-80px)]
             md:mt-22
-
             lg:mt-24
-
             md:rounded-3xl
-
             bg-gray-800
-
             relative z-10
-
             border-1 border-emerald-500
-
             shadow-lg shadow-emerald-700/50"
-
     id="min"
 
   >
 
     <main
-
       class="scroll-smooth
-
               md:overflow-y-auto
-
               md:rounded-3xl
-
               h-full
-
               hide-scrollbar">
 
       <Hero v-show="activeSection === 'hero'" @go-to-projects="setSection('projects')" class="transition-opacity duration-300" />
-
       <Skills v-show="activeSection === 'skills'" class="transition-opacity duration-300" />
-
       <Projects v-show="activeSection === 'projects'" class="transition-opacity duration-300" />
-
       <Contact v-show="activeSection === 'contact'" class="transition-opacity duration-300" />
 
     </main>

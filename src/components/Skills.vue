@@ -24,7 +24,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section id="about" class="h-full py-20
+  <section id="about" class="h-full py-20 md:px-5
             bg-gray-50 dark:bg-gray-800
             dark:text-white">
   <div class="container grid grid-cols-1 md:grid-cols-2 gap-12 mx-auto">

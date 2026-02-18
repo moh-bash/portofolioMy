@@ -1,44 +1,37 @@
-# portofolioMy
+# 🌐 Personal Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+This repository contains the source code of my **personal portfolio website**, created to showcase my projects, skills, and experience as a frontend developer.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🧑‍💻 About
 
-## Recommended Browser Setup
+The portfolio reflects my journey in frontend development and highlights selected projects, technical skills, and ways to get in touch with me.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Customize configuration
+## 🛠️ Technologies Used
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- EmailJS
+- Vue I18n
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## ✨ Highlights
 
-### Compile and Hot-Reload for Development
+- Modern and clean design
+- Fully responsive layout
+- Multi-language support
+- Contact form integration
+- Project showcase section
 
-```sh
-npm run dev
-```
+---
 
-### Compile and Minify for Production
+## 🔗 Live Website
 
-```sh
-npm run build
-```
+👉 [*live  link here*](https://moh-bashir.vercel.app/)
 
-### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
-```
